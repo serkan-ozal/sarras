@@ -6,6 +6,8 @@
 
 **Sarras** is [Reflection Configuration File](https://github.com/oracle/graal/blob/master/substratevm/REFLECTION.md) Generator tool for **Graal Substrate VM** by Static and Dynamic Profiling of Java Applicatons.
 
+See the technical discussion about the approach: https://github.com/oracle/graal/issues/476
+
 ### Static Profiling
 
 Parses bytecode of all classes in the given jar, introspectes reflective calls (class/method/field accesses through reflection, etc ...) and adds their configurations to the generated reflection configuration file.
